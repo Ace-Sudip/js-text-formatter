@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Formatter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Fira Sans", sans-serif;
+      }
+      .textbox {
+        font-size: 25px;
+        margin-top: 40px;
+        height: 100px;
+        width: 70%;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-align-center text-center mt-4 mb-2">Type your words</h1>
+      <div class="col-sm-8 col-md-6 col-lg-4 text-center m-auto">
+        <input
+          type="text"
+          id="inputtext"
+          class="form-control"
+          placeholder="Input text"
+        />
+      </div>
+      <div class="d-flex justify-content-center flex-wrap mt-3">
+        <button class="btn btn-primary m-2 uppercase">ABC</button>
+        <button class="btn btn-secondary m-2 lowercase">abc</button>
+        <button class="btn btn-success m-2 capitalize">Abc</button>
+        <button class="btn btn-info m-2 bolding font-weight-bolder">B</button>
+        <button class="btn btn-danger m-2 italic font-italic">I</button>
+        <button
+          class="btn btn-dark m-2 underlining"
+          style="text-decoration: underline"
+        >
+          U
+        </button>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <p
+          id="outputtext"
+          class="textbox d-flex align-items-center justify-content-center bg-dark text-white mt-auto"
+        >
+          Output
+        </p>
+      </div>
+    </div>
+
+    <script src="myscript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
