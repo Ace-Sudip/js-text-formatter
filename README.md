@@ -10,8 +10,8 @@ Make text bold.<br>
 Make text italic.<br>
 
 Installation:<br>
-Clone the repository:<br>
-git clone https://github.com/your-username/text-formatter.git
-Open the project directory:<br>
+1. Clone the repository:<br>
+git clone https://github.com/your-username/text-formatter.git<br>
+2. Open the project directory:<br>
 cd text-formatter<br>
-Open index.html in a web browser.
+3. Open index.html in a web browser.
